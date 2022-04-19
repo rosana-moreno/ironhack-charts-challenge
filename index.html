@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ironhack | Visualización de datos con ChartJS</title>
+    <meta name="description"
+        content="Sumérgete en el mundo de la visualización de datos con Javascript de la mano de Ironhack">
+    <meta property="og:image" content="https://germanalvarez.net/hola-valencia/ogimage.png" />
+
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <img src="img/ironhack-logo.svg" alt="Iornhack" class="logo">
+            <div>
+                <h1>Visualización de datos: alimentos</h1>
+                <p>Estadísticas de composición nutricional</p>
+            </div>
+        </header>
+
+        <hr>
+
+
+        <section class="columns-container">
+
+            <figure class="two-thirds-column">
+
+                <h2>Comparador calórico</h2>
+                <hr>
+                <canvas id="chart1"></canvas>
+
+            </figure>
+
+            <article class="one-third-column">
+
+                <h2>Aporte calórico alimenticio</h2>
+                <hr>
+                <p>Spicy jalapeno bacon ipsum dolor amet labore shankle tempor occaecat velit shoulder. Venison capicola picanha ham.</p>
+                <p>Flank doner anim et, fugiat meatloaf kevin proident spare ribs. Et adipisicing eiusmod irure andouille, dolore mollit commodo chicken labore qui turkey jerky pig.</p>
+                <p>Shank cupim do drumstick exercitation pork loin anim leberkas corned beef cillum irure commodo. Culpa ut ullamco burgdoggen.</p>
+                <p>Pig capicola commodo sausage. Sausage aute tail andouille pariatur cillum qui lorem occaecat excepteur proident do mollit sint t-bone. Velit rump proident, picanha pastrami sed boudin fatback.</p>
+
+            </article>
+
+        </section>
+
+
+        <section>
+
+            <header>
+
+                <h2>Aportes nutricionales generales</h2>
+                <hr>
+                <p>Spicy jalapeno meatloaf commodo ullamco, bresaola cillum voluptate chuck dolore cow ham hock flank. Kielbasa nisi picanha culpa, strip steak pork belly flank.</p>
+
+            </header>
+
+            <div class="columns-container">
+
+                <figure class="one-third-column">
+
+                    <h4>Proteínas</h4>
+                    <hr>
+                    <canvas id="chart2"></canvas>
+
+                </figure>
+
+                <figure class="one-third-column">
+
+                    <h4>Grasa</h4>
+                    <hr>
+                    <canvas id="chart3"></canvas>
+
+                </figure>
+
+                <figure class="one-third-column">
+
+                    <h4>Calcio</h4>
+                    <hr>
+                    <canvas id="chart4"></canvas>
+
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <article class="one-full-column">
+
+                <h2>Comparador de calorías VS proteínas</h2>
+                <hr>
+                <p>Bacon ipsum dolor amet pork loin ground round buffalo ut tail, pancetta in short ribs tongue corned beef duis. Kevin nulla qui et, chicken adipisicing deserunt ad pork cupim eiusmod.</p>
+
+            </article>
+
+            <figure class="one-full-column">
+                <canvas id="chart5" class="height-300"></canvas>
+            </figure>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
